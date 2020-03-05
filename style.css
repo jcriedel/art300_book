@@ -1,0 +1,296 @@
+body{
+    background-color: #f9f4ec;
+    font-family: 'Noto Serif', serif;
+}
+
+pre{
+    display: none;
+}
+hr{
+    display: none;
+}
+p.f2,.f4,.f3{
+    font-weight: bold;
+}
+p{
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding: 0;
+    padding-top: 0;
+    padding-right: 20vw;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-size: 1em;
+    color: black;
+    width: 40vw;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+p:nth-of-type(5n), p:nth-of-type(7n){
+    padding-right: 0vw;
+    padding-left: 20vw;
+}
+
+p:nth-child(3n), p:nth-child(6n){
+    padding-right: 0vw;
+    padding-left: 10vw;
+}
+.top5{
+    display: none;
+}
+
+.bbox{
+    display: none;
+}
+.bbox2{
+    display: none;
+}
+.blockquot + .bbox {
+    display: block;
+}
+p::first-letter {
+    font-size: 1.5em;
+}
+h3{
+    margin: 0;
+    margin-left:3vw;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+h3:nth-of-type(2){
+    text-align: left;
+    margin-left: 5vw;
+
+}
+p.f2,.f3,.f4{
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+p.f5{
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0; 
+}
+p.c{
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0; 
+    margin-top: 50px; 
+}
+p.f2,.f3,.f4{
+    font-size: 3em;
+    margin-bottom: 0;
+}
+p.c,.f5{
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.c:nth-of-type(6){
+    display: none;
+}
+.blockquot{
+display: none;
+}
+p.n:nth-of-type(7){
+    padding-right: 0;
+    padding-left: 0;
+    font-size: .75em;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    width: 25vw;
+    margin: 0;
+    margin-left: 5vw;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+p.n:nth-of-type(7),p.c.n:nth-of-type(1):first-letter{
+    font-size: 1em;
+}
+p.c.n:nth-of-type(1){
+    text-align: right;
+    margin: 0;
+    margin-left: 52vw;
+    font-size: 1.5em;
+    margin-bottom: 150px;
+}
+p.f2::first-letter{
+    font-size: 1em;
+}
+p.f3::first-letter{
+    font-size: 1em;
+}
+p.f4::first-letter{
+    font-size: 1em;
+}
+p.f5::first-letter{
+    font-size: 1em;
+}
+p.c::first-letter{
+    font-size: 1em;
+}
+p.f2{
+    margin-top: 200px;
+}
+p.f5{
+    margin-bottom: 200px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: black;
+  }
+  h1{
+    font-size:5em;
+    text-align: center;
+    margin-bottom: 250px;
+    padding: 20px;
+  }
+  p.c.smcap.top15:last-of-type{
+    margin: 0;
+    margin-left:3vw;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  /* ----------- SMART PHONES ----------- */
+@media only screen and (max-width: 800px) {
+    p{
+        margin: auto;
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+        padding: 0;
+        padding-top: 0;
+        padding-right: 0vw;
+        padding-bottom: 0;
+        padding-left: 0;
+        font-size: 1.4em;
+        color: black;
+        width: 80vw;
+        max-width: 600px;
+        line-height: 1.7em;
+        letter-spacing: 1px;
+    }
+    p::first-letter {
+        font-size: 2.5em;
+    }
+    
+    p:nth-of-type(5n), p:nth-of-type(6n){
+        padding-right: 0vw;
+        padding-left: 0vw;
+        margin-bottom: 70px;
+    }
+    p.c.n:nth-of-type(1){
+        text-align: center;
+        margin: auto;
+        font-size: 2em;
+        margin-bottom: 150px;
+    }   
+    p.f2{
+        margin-top: 20px;
+    }
+    p.f5{
+        margin-bottom: 200px;
+    }
+    p.n:nth-of-type(7){
+        margin: auto;
+        width: 75vw;
+    }
+    h3:nth-of-type(2){
+        margin: auto;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    p.c.smcap.top15:last-of-type {
+        margin: 0;
+        margin: auto;
+        margin-top:50px;
+
+    }
+}
+/* ----------- TABLETS ----------- */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    p{
+        margin: auto;
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+        padding: 0;
+        padding-top: 0;
+        padding-right: 30vw;
+        padding-bottom: 0;
+        padding-left: 0;
+        font-size: 1.1em;
+        color: black;
+        width: 60vw;
+        max-width: 600px;
+        line-height: 1.4em;
+        letter-spacing: 1px;
+    }
+    p::first-letter {
+        font-size: 2.5em;
+    }
+    
+    p:nth-of-type(5n), p:nth-of-type(6n){
+        padding-right: 0vw;
+        padding-left: 30vw;
+        margin-bottom: 70px;
+    }
+    p:nth-of-type(5n), p:nth-of-type(6n){
+        padding-right: 0vw;
+        padding-left: 0vw;
+        margin-bottom: 70px;
+    }
+    p.c.n:nth-of-type(1){
+        text-align: center;
+        margin: auto;
+        font-size: 2em;
+        margin-bottom: 150px;
+    }   
+    p.f2{
+        margin-top: 20px;
+    }
+    p.f5{
+        margin-bottom: 200px;
+    }
+    p.n:nth-of-type(7){
+        margin: auto;
+        width: 75vw;
+    }
+    h3:nth-of-type(2){
+        margin: auto;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    p.c.smcap.top15:last-of-type {
+        margin: 0;
+        margin: auto;
+        margin-top:50px;
+
+    }
+}

@@ -173,6 +173,10 @@ a:link {
     text-transform: uppercase;
     font-weight: bold;
   }
+  p~p{
+      color: black;
+  }
+  
   /* ----------- SMART PHONES ----------- */
 @media only screen and (max-width: 800px) {
     p{
